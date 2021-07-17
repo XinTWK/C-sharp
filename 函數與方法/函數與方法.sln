@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.1585
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "函數與方法", "函數與方法\函數與方法.csproj", "{4B8BAFE3-14BB-42DB-B37F-4FD2BF177056}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "有返回值和參數的方法", "有返回值和參數的方法\有返回值和參數的方法.csproj", "{5FC612BF-2053-4951-93DB-D76C6C57754A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "方法小練習", "方法小練習\方法小練習.csproj", "{C07A3DBE-E61A-433A-B206-A12CAB291C18}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "用戶輸入來使用方法", "用戶輸入來使用方法\用戶輸入來使用方法.csproj", "{ADDCC11C-97FA-49AE-A18F-E486807FFDF8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "try catch finally", "try catch finally\try catch finally.csproj", "{600F9B88-79A1-43F5-BC88-846C32470291}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "運算符", "運算元\運算符.csproj", "{CFD5BDA6-9391-48F7-9B92-29501245388E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4B8BAFE3-14BB-42DB-B37F-4FD2BF177056}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4B8BAFE3-14BB-42DB-B37F-4FD2BF177056}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4B8BAFE3-14BB-42DB-B37F-4FD2BF177056}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4B8BAFE3-14BB-42DB-B37F-4FD2BF177056}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5FC612BF-2053-4951-93DB-D76C6C57754A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5FC612BF-2053-4951-93DB-D76C6C57754A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5FC612BF-2053-4951-93DB-D76C6C57754A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5FC612BF-2053-4951-93DB-D76C6C57754A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C07A3DBE-E61A-433A-B206-A12CAB291C18}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C07A3DBE-E61A-433A-B206-A12CAB291C18}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C07A3DBE-E61A-433A-B206-A12CAB291C18}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C07A3DBE-E61A-433A-B206-A12CAB291C18}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ADDCC11C-97FA-49AE-A18F-E486807FFDF8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ADDCC11C-97FA-49AE-A18F-E486807FFDF8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ADDCC11C-97FA-49AE-A18F-E486807FFDF8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ADDCC11C-97FA-49AE-A18F-E486807FFDF8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{600F9B88-79A1-43F5-BC88-846C32470291}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{600F9B88-79A1-43F5-BC88-846C32470291}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{600F9B88-79A1-43F5-BC88-846C32470291}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{600F9B88-79A1-43F5-BC88-846C32470291}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CFD5BDA6-9391-48F7-9B92-29501245388E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CFD5BDA6-9391-48F7-9B92-29501245388E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CFD5BDA6-9391-48F7-9B92-29501245388E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CFD5BDA6-9391-48F7-9B92-29501245388E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E90136E4-C7AA-4079-A5FD-53A8E6B4A54D}
+	EndGlobalSection
+EndGlobal
