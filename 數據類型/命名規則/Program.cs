@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-// https://www.dofactory.com/csharp-coding-standards  可以參考
+ https:www.dofactory.com/csharp-coding-standards  可以參考
 
 namespace 命名規則
 {   // class names like ClientActivity
