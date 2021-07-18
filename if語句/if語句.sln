@@ -5,6 +5,18 @@ VisualStudioVersion = 15.0.28307.1585
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "if語句", "if語句\if語句.csproj", "{AC1C8DAD-9CBE-4F83-8392-CF988EE15DAC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "嵌套的if語句", "嵌套的if語句\嵌套的if語句.csproj", "{91B76526-BA96-4C45-A722-4F0AFE157B3E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "if語句小挑戰", "if語句小挑戰\if語句小挑戰.csproj", "{9E78B974-810C-47D9-B1B7-53C129BF7073}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "switch 語句", "switch 語句\switch 語句.csproj", "{F327847C-66D1-44CA-9CAD-AFA710A3B805}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "if語句小挑戰2", "if語句小挑戰2\if語句小挑戰2.csproj", "{D5E43F23-EAE4-4D25-84E6-B037BB57BB95}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "三元運算符", "三元運算符\三元運算符.csproj", "{3C386828-F351-486C-942F-3290E8063BAF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "if語句小挑戰3-三元運算符", "if語句小挑戰3-三元運算符\if語句小挑戰3-三元運算符.csproj", "{E80A8090-2C7B-4536-97E5-D90C1D60FDD4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +27,30 @@ Global
 		{AC1C8DAD-9CBE-4F83-8392-CF988EE15DAC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AC1C8DAD-9CBE-4F83-8392-CF988EE15DAC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AC1C8DAD-9CBE-4F83-8392-CF988EE15DAC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{91B76526-BA96-4C45-A722-4F0AFE157B3E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{91B76526-BA96-4C45-A722-4F0AFE157B3E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{91B76526-BA96-4C45-A722-4F0AFE157B3E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{91B76526-BA96-4C45-A722-4F0AFE157B3E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9E78B974-810C-47D9-B1B7-53C129BF7073}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E78B974-810C-47D9-B1B7-53C129BF7073}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E78B974-810C-47D9-B1B7-53C129BF7073}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E78B974-810C-47D9-B1B7-53C129BF7073}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F327847C-66D1-44CA-9CAD-AFA710A3B805}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F327847C-66D1-44CA-9CAD-AFA710A3B805}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F327847C-66D1-44CA-9CAD-AFA710A3B805}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F327847C-66D1-44CA-9CAD-AFA710A3B805}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D5E43F23-EAE4-4D25-84E6-B037BB57BB95}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D5E43F23-EAE4-4D25-84E6-B037BB57BB95}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D5E43F23-EAE4-4D25-84E6-B037BB57BB95}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D5E43F23-EAE4-4D25-84E6-B037BB57BB95}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3C386828-F351-486C-942F-3290E8063BAF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C386828-F351-486C-942F-3290E8063BAF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C386828-F351-486C-942F-3290E8063BAF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C386828-F351-486C-942F-3290E8063BAF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E80A8090-2C7B-4536-97E5-D90C1D60FDD4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E80A8090-2C7B-4536-97E5-D90C1D60FDD4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E80A8090-2C7B-4536-97E5-D90C1D60FDD4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E80A8090-2C7B-4536-97E5-D90C1D60FDD4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
