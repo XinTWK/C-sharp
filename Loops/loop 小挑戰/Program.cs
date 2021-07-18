@@ -39,7 +39,6 @@ namespace loop_小挑戰
                 if (int.TryParse(input, out lastNumber) && lastNumber > 0 && lastNumber < 21)
                 {
                     total += lastNumber;
-                    
                 }
                 else
                 {
