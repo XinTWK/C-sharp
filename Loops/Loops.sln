@@ -3,7 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.1585
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Loops", "Loops\Loops.csproj", "{9A3D4F8E-E009-49FE-80FF-6E27C1147A4C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "for loop", "Loops\for loop.csproj", "{9A3D4F8E-E009-49FE-80FF-6E27C1147A4C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "do while loop", "do while loop\do while loop.csproj", "{78319C59-6CA9-4D0C-9C98-A3BE03316406}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "while loop", "while loop\while loop.csproj", "{D1AE3C9F-263E-489C-946E-A0A0EE12FC2C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BreakContinue", "BreakContinue\BreakContinue.csproj", "{3036090E-28D3-43E8-A890-0C352246DF0F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "loop 小挑戰", "loop 小挑戰\loop 小挑戰.csproj", "{C4EA18B3-FC77-4E9D-8600-B69D782FB559}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +23,22 @@ Global
 		{9A3D4F8E-E009-49FE-80FF-6E27C1147A4C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9A3D4F8E-E009-49FE-80FF-6E27C1147A4C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9A3D4F8E-E009-49FE-80FF-6E27C1147A4C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{78319C59-6CA9-4D0C-9C98-A3BE03316406}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{78319C59-6CA9-4D0C-9C98-A3BE03316406}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{78319C59-6CA9-4D0C-9C98-A3BE03316406}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{78319C59-6CA9-4D0C-9C98-A3BE03316406}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D1AE3C9F-263E-489C-946E-A0A0EE12FC2C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D1AE3C9F-263E-489C-946E-A0A0EE12FC2C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D1AE3C9F-263E-489C-946E-A0A0EE12FC2C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D1AE3C9F-263E-489C-946E-A0A0EE12FC2C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3036090E-28D3-43E8-A890-0C352246DF0F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3036090E-28D3-43E8-A890-0C352246DF0F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3036090E-28D3-43E8-A890-0C352246DF0F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3036090E-28D3-43E8-A890-0C352246DF0F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C4EA18B3-FC77-4E9D-8600-B69D782FB559}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C4EA18B3-FC77-4E9D-8600-B69D782FB559}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C4EA18B3-FC77-4E9D-8600-B69D782FB559}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C4EA18B3-FC77-4E9D-8600-B69D782FB559}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
