@@ -13,6 +13,16 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Multi Dimensional Arrays", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nested For Loops and 2D Arrays", "Nested For Loops and 2D Arrays\Nested For Loops and 2D Arrays.csproj", "{EA8B32F9-F2AE-4422-8051-BE1DE6528E51}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2D Arrays 小練習", "2D Arrays 小練習\2D Arrays 小練習.csproj", "{8C779A7D-768F-4F93-99C2-DDB71D309448}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JaggedArray", "JaggedArray\JaggedArray.csproj", "{C7D6B6EB-5101-40B1-9A75-430AA1459AAD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JaggedArray 小練習", "JaggedArray 小練習\JaggedArray 小練習.csproj", "{7169FDEF-6331-4902-8880-9624E5803CCB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArrayAsParameters", "ArrayAsParameters\ArrayAsParameters.csproj", "{80A99E2D-D70B-4518-99AD-FE2D06EC90FD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ParamsExample", "ParamsExample\ParamsExample.csproj", "{01173E51-FB5C-4377-956C-3FCACCE11838}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +49,26 @@ Global
 		{EA8B32F9-F2AE-4422-8051-BE1DE6528E51}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EA8B32F9-F2AE-4422-8051-BE1DE6528E51}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EA8B32F9-F2AE-4422-8051-BE1DE6528E51}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8C779A7D-768F-4F93-99C2-DDB71D309448}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C779A7D-768F-4F93-99C2-DDB71D309448}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C779A7D-768F-4F93-99C2-DDB71D309448}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C779A7D-768F-4F93-99C2-DDB71D309448}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C7D6B6EB-5101-40B1-9A75-430AA1459AAD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C7D6B6EB-5101-40B1-9A75-430AA1459AAD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C7D6B6EB-5101-40B1-9A75-430AA1459AAD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C7D6B6EB-5101-40B1-9A75-430AA1459AAD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7169FDEF-6331-4902-8880-9624E5803CCB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7169FDEF-6331-4902-8880-9624E5803CCB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7169FDEF-6331-4902-8880-9624E5803CCB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7169FDEF-6331-4902-8880-9624E5803CCB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{80A99E2D-D70B-4518-99AD-FE2D06EC90FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{80A99E2D-D70B-4518-99AD-FE2D06EC90FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{80A99E2D-D70B-4518-99AD-FE2D06EC90FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{80A99E2D-D70B-4518-99AD-FE2D06EC90FD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{01173E51-FB5C-4377-956C-3FCACCE11838}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{01173E51-FB5C-4377-956C-3FCACCE11838}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{01173E51-FB5C-4377-956C-3FCACCE11838}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{01173E51-FB5C-4377-956C-3FCACCE11838}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

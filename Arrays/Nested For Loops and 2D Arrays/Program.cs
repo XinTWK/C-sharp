@@ -17,6 +17,12 @@ namespace Nested_For_Loops_and_2D_Arrays
 
         static void Main(string[] args)
         {
+            Console.WriteLine(" 1,2,3 ");
+            Console.WriteLine(" 4,5,6 ");
+            Console.WriteLine(" 7,8,9 ");
+
+
+            Console.WriteLine("foreach print");
             foreach (int item in matrix)
             {
                 Console.Write(item + " ");
@@ -30,8 +36,24 @@ namespace Nested_For_Loops_and_2D_Arrays
                 // inner for loop
                 for (int j = 0; j < matrix.GetLength(1); j++)
                 {
-                    Console.Write(matrix[i,j] + " ");
+                    if (matrix[i, j] % 2 == 0) // 輸出偶數    if (matrix[i, j] % 2 == 1)  -> 輸出奇數
+                        Console.Write(matrix[i, j] + " ");
+                    else
+                        Console.Write("");
                 }
+            }
+            Console.WriteLine(" \n Print diagonal value");
+            for (int i = 0; i < matrix.GetLength(0); i++)
+            {
+                // inner for loop
+                for (int j = 0; j < matrix.GetLength(1); j++)
+                {
+                    if ( i == j) 
+                        Console.Write(matrix[i, j] + " ");
+                    else
+                        Console.Write(" ");
+                }
+                Console.WriteLine("");
             }
 
 
