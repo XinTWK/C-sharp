@@ -23,6 +23,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArrayAsParameters", "ArrayA
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ParamsExample", "ParamsExample\ParamsExample.csproj", "{01173E51-FB5C-4377-956C-3FCACCE11838}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ParamsExample2", "..\ParamsExample2\ParamsExample2.csproj", "{F784D334-3438-4572-AD8F-C055AD1C3AA6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArrayListC", "ArraylistC\ArrayListC.csproj", "{AE3781AB-A545-4030-8768-8AB9BD85B24C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -69,6 +73,14 @@ Global
 		{01173E51-FB5C-4377-956C-3FCACCE11838}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{01173E51-FB5C-4377-956C-3FCACCE11838}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{01173E51-FB5C-4377-956C-3FCACCE11838}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F784D334-3438-4572-AD8F-C055AD1C3AA6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F784D334-3438-4572-AD8F-C055AD1C3AA6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F784D334-3438-4572-AD8F-C055AD1C3AA6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F784D334-3438-4572-AD8F-C055AD1C3AA6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AE3781AB-A545-4030-8768-8AB9BD85B24C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE3781AB-A545-4030-8768-8AB9BD85B24C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE3781AB-A545-4030-8768-8AB9BD85B24C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE3781AB-A545-4030-8768-8AB9BD85B24C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
