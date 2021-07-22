@@ -54,7 +54,8 @@ namespace Stacks
 
             Console.WriteLine("");
             Console.WriteLine("The numbers in reverse!");
-
+            
+            // as long as our stack is not empty
             while (mystack.Count > 0)
             {
                 // Pop it and store it in a variable
