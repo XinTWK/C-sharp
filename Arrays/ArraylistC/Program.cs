@@ -26,17 +26,35 @@ namespace ArrayListC
 
             // delete element with specific value from the arraylist
             myArrayList.Remove(13);
+            myArrayList.Remove(13);
+            myArrayList.Remove(13); // 即使沒有13也不會crash
 
             // delete element at specific position
             myArrayList.RemoveAt(0);
 
-            Console.WriteLine(myArrayList.Count);
+            Console.WriteLine("count: {0}",myArrayList.Count);
+
+            double sum = 0;
 
             foreach(object obj in myArrayList)
             {
-
+                if(obj is int)
+                {
+                    sum += Convert.ToDouble(obj);
+                }
+                else if (obj is double)
+                {
+                    sum += (double)obj;
+                }
+                else if (obj is string)
+                {
+                    Console.WriteLine(obj);
+                }
             }
-            
+
+            Console.WriteLine(sum);
+
+            Console.ReadKey();
         }
     }
 }
