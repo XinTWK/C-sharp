@@ -5,7 +5,7 @@ VisualStudioVersion = 15.0.28307.1585
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Arrays", "Arrays.csproj", "{83FA25BB-5CFC-43FB-911E-C1E19BF6DA48}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Foreach loops", "Foreach loops\Foreach loops.csproj", "{CF599A33-CD7B-4535-9AC4-465CEC5D44A8}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01 Foreach loops", "Foreach loops\01 Foreach loops.csproj", "{CF599A33-CD7B-4535-9AC4-465CEC5D44A8}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Foreach loop and Switch 語句 挑戰", "Foreach loop and Switch 語句 挑戰\Foreach loop and Switch 語句 挑戰.csproj", "{C7C03A7B-07E2-45B4-8937-56FAEA496402}"
 EndProject
