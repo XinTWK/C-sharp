@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.1585
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01 InheritanceDemo", "01 InheritanceDemo\01 InheritanceDemo.csproj", "{07A7A238-F0EC-4892-99E3-AB3ECEFC028B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02 VirtualOverrideDemo", "02 VirtualOverrideDemo\02 VirtualOverrideDemo.csproj", "{020E72C2-E8DF-41A3-98CA-1DC6C3262DA6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{07A7A238-F0EC-4892-99E3-AB3ECEFC028B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{07A7A238-F0EC-4892-99E3-AB3ECEFC028B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{07A7A238-F0EC-4892-99E3-AB3ECEFC028B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{07A7A238-F0EC-4892-99E3-AB3ECEFC028B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{020E72C2-E8DF-41A3-98CA-1DC6C3262DA6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{020E72C2-E8DF-41A3-98CA-1DC6C3262DA6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{020E72C2-E8DF-41A3-98CA-1DC6C3262DA6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{020E72C2-E8DF-41A3-98CA-1DC6C3262DA6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {859F7CB6-800E-439C-BC9A-D3AADD52A4ED}
+	EndGlobalSection
+EndGlobal
