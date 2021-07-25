@@ -37,6 +37,7 @@ namespace _03_InheritanceC
         {
             if (!isPlaying)
             {
+                isPlaying = true;
                 Console.WriteLine("Playing");
                 timer = new Timer(TimerCallback, null, 0, 1000);
             }
@@ -61,7 +62,8 @@ namespace _03_InheritanceC
         {
             if(isPlaying)
             {
-                Console.WriteLine($"Stopped at {currDuration}");
+                isPlaying = false;
+                Console.WriteLine($"Stopped at {currDuration}s");
                 currDuration = 0;
                 timer.Dispose();
             }

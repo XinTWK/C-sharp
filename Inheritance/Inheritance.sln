@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02 VirtualOverrideDemo", "0
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03 InheritanceC", "03 InheritanceC\03 InheritanceC.csproj", "{B4CBA6DB-4EFB-4B1C-8352-BEF9471BFEC4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04 InheritanceChallenge2", "04 InheritanceChallenge2\04 InheritanceChallenge2.csproj", "{0A522327-F65D-4296-8B86-FA8E5AD5B7E4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{B4CBA6DB-4EFB-4B1C-8352-BEF9471BFEC4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B4CBA6DB-4EFB-4B1C-8352-BEF9471BFEC4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B4CBA6DB-4EFB-4B1C-8352-BEF9471BFEC4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0A522327-F65D-4296-8B86-FA8E5AD5B7E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0A522327-F65D-4296-8B86-FA8E5AD5B7E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0A522327-F65D-4296-8B86-FA8E5AD5B7E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0A522327-F65D-4296-8B86-FA8E5AD5B7E4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
