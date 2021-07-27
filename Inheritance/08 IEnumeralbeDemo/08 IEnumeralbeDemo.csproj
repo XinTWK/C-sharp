@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{40C87182-302B-4002-AE05-B7CC80010D51}</ProjectGuid>
+    <ProjectGuid>{9345C8C5-4834-4923-ADF5-635AAEA769BC}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>_07_IEnumeralbeAndIEnumeratorDemo</RootNamespace>
-    <AssemblyName>07 IEnumeralbeAndIEnumeratorDemo</AssemblyName>
+    <RootNamespace>_08_IEnumeralbeDemo</RootNamespace>
+    <AssemblyName>08 IEnumeralbeDemo</AssemblyName>
     <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>

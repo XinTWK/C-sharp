@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace _07_IEnumeralbeAndIEnumeratorDemo
+namespace _07_IEnumerableAndIEnumeratorDemo
 {
     class Program
     {
@@ -34,7 +34,7 @@ namespace _07_IEnumeralbeAndIEnumeratorDemo
 
             foreach (Dog dog in shelter)
             {
-                if(!dog.IsNaughtyDog)
+                if (!dog.IsNaughtyDog)
                 {
                     dog.GiveTreat(2);
                 }
@@ -67,7 +67,7 @@ namespace _07_IEnumeralbeAndIEnumeratorDemo
         public void GiveTreat(int numberofTreats)
         {
             // print a message containing the number of treats and the name of the dog
-            Console.WriteLine("Dog: {0} siad wuoff {1} times!",Name,numberofTreats);
+            Console.WriteLine("Dog: {0} siad wuoff {1} times!", Name, numberofTreats);
         }
 
     }
@@ -103,8 +103,4 @@ namespace _07_IEnumeralbeAndIEnumeratorDemo
             throw new NotFiniteNumberException();
         }
     }
-
-
-
-
 }
