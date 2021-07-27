@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{36F7FCDB-70A1-4F4A-ABFF-8D07B5BCC242}</ProjectGuid>
+    <ProjectGuid>{40C87182-302B-4002-AE05-B7CC80010D51}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>_05_InterfaceDemo</RootNamespace>
-    <AssemblyName>05 InterfaceDemo</AssemblyName>
+    <RootNamespace>_07_IEnumeralbeAndIEnumeratorDemo</RootNamespace>
+    <AssemblyName>_07_IEnumeralbeAndIEnumeratorDemo</AssemblyName>
     <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -45,7 +45,6 @@
   <ItemGroup>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Ticket.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

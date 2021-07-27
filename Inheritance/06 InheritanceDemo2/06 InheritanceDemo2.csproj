@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{36F7FCDB-70A1-4F4A-ABFF-8D07B5BCC242}</ProjectGuid>
+    <ProjectGuid>{908D24B2-6191-42D8-8337-25DDE07A72F5}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>_05_InterfaceDemo</RootNamespace>
-    <AssemblyName>05 InterfaceDemo</AssemblyName>
+    <RootNamespace>_06_InheritanceDemo2</RootNamespace>
+    <AssemblyName>06 InheritanceDemo2</AssemblyName>
     <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,9 +43,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Car.cs" />
+    <Compile Include="Chair.cs" />
+    <Compile Include="Furniture.cs" />
+    <Compile Include="IDestroyable.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Ticket.cs" />
+    <Compile Include="Vehicle.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

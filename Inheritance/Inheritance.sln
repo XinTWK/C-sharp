@@ -11,6 +11,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03 InheritanceC", "03 Inher
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04 InheritanceChallenge2", "04 InheritanceChallenge2\04 InheritanceChallenge2.csproj", "{0A522327-F65D-4296-8B86-FA8E5AD5B7E4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05 InterfaceDemo", "05 InterfaceDemo\05 InterfaceDemo.csproj", "{36F7FCDB-70A1-4F4A-ABFF-8D07B5BCC242}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06 InheritanceDemo2", "06 InheritanceDemo2\06 InheritanceDemo2.csproj", "{908D24B2-6191-42D8-8337-25DDE07A72F5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +37,14 @@ Global
 		{0A522327-F65D-4296-8B86-FA8E5AD5B7E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0A522327-F65D-4296-8B86-FA8E5AD5B7E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0A522327-F65D-4296-8B86-FA8E5AD5B7E4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{36F7FCDB-70A1-4F4A-ABFF-8D07B5BCC242}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{36F7FCDB-70A1-4F4A-ABFF-8D07B5BCC242}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{36F7FCDB-70A1-4F4A-ABFF-8D07B5BCC242}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{36F7FCDB-70A1-4F4A-ABFF-8D07B5BCC242}.Release|Any CPU.Build.0 = Release|Any CPU
+		{908D24B2-6191-42D8-8337-25DDE07A72F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{908D24B2-6191-42D8-8337-25DDE07A72F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{908D24B2-6191-42D8-8337-25DDE07A72F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{908D24B2-6191-42D8-8337-25DDE07A72F5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
