@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.1585
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01 PolymrophismC", "01 PolymrophismC\01 PolymrophismC.csproj", "{F23325DE-FDF1-4DD5-88AA-5D4492860B29}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02 AbstractClassesC", "02 AbstractClassesC\02 AbstractClassesC.csproj", "{DA79A02B-6802-4423-AD26-13B375D666DD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F23325DE-FDF1-4DD5-88AA-5D4492860B29}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F23325DE-FDF1-4DD5-88AA-5D4492860B29}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F23325DE-FDF1-4DD5-88AA-5D4492860B29}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F23325DE-FDF1-4DD5-88AA-5D4492860B29}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DA79A02B-6802-4423-AD26-13B375D666DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA79A02B-6802-4423-AD26-13B375D666DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA79A02B-6802-4423-AD26-13B375D666DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA79A02B-6802-4423-AD26-13B375D666DD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7842D625-3B20-4010-8181-B387523C3CD6}
+	EndGlobalSection
+EndGlobal
