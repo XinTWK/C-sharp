@@ -906,9 +906,9 @@ namespace _01_WPF_ZooManager {
             
             private global::System.Data.DataColumn columnId;
             
-            private global::System.Data.DataColumn columnZooID;
+            private global::System.Data.DataColumn columnZooId;
             
-            private global::System.Data.DataColumn columnAnimalID;
+            private global::System.Data.DataColumn columnAnimalId;
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")]
@@ -953,17 +953,17 @@ namespace _01_WPF_ZooManager {
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")]
-            public global::System.Data.DataColumn ZooIDColumn {
+            public global::System.Data.DataColumn ZooIdColumn {
                 get {
-                    return this.columnZooID;
+                    return this.columnZooId;
                 }
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")]
-            public global::System.Data.DataColumn AnimalIDColumn {
+            public global::System.Data.DataColumn AnimalIdColumn {
                 get {
-                    return this.columnAnimalID;
+                    return this.columnAnimalId;
                 }
             }
             
@@ -1004,12 +1004,12 @@ namespace _01_WPF_ZooManager {
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")]
-            public ZooAnimalRow AddZooAnimalRow(int ZooID, int AnimalID) {
+            public ZooAnimalRow AddZooAnimalRow(int ZooId, int AnimalId) {
                 ZooAnimalRow rowZooAnimalRow = ((ZooAnimalRow)(this.NewRow()));
                 object[] columnValuesArray = new object[] {
                         null,
-                        ZooID,
-                        AnimalID};
+                        ZooId,
+                        AnimalId};
                 rowZooAnimalRow.ItemArray = columnValuesArray;
                 this.Rows.Add(rowZooAnimalRow);
                 return rowZooAnimalRow;
@@ -1040,8 +1040,8 @@ namespace _01_WPF_ZooManager {
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")]
             internal void InitVars() {
                 this.columnId = base.Columns["Id"];
-                this.columnZooID = base.Columns["ZooID"];
-                this.columnAnimalID = base.Columns["AnimalID"];
+                this.columnZooId = base.Columns["ZooId"];
+                this.columnAnimalId = base.Columns["AnimalId"];
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -1049,10 +1049,10 @@ namespace _01_WPF_ZooManager {
             private void InitClass() {
                 this.columnId = new global::System.Data.DataColumn("Id", typeof(int), null, global::System.Data.MappingType.Element);
                 base.Columns.Add(this.columnId);
-                this.columnZooID = new global::System.Data.DataColumn("ZooID", typeof(int), null, global::System.Data.MappingType.Element);
-                base.Columns.Add(this.columnZooID);
-                this.columnAnimalID = new global::System.Data.DataColumn("AnimalID", typeof(int), null, global::System.Data.MappingType.Element);
-                base.Columns.Add(this.columnAnimalID);
+                this.columnZooId = new global::System.Data.DataColumn("ZooId", typeof(int), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columnZooId);
+                this.columnAnimalId = new global::System.Data.DataColumn("AnimalId", typeof(int), null, global::System.Data.MappingType.Element);
+                base.Columns.Add(this.columnAnimalId);
                 this.Constraints.Add(new global::System.Data.UniqueConstraint("Constraint1", new global::System.Data.DataColumn[] {
                                 this.columnId}, true));
                 this.columnId.AutoIncrement = true;
@@ -1061,8 +1061,8 @@ namespace _01_WPF_ZooManager {
                 this.columnId.AllowDBNull = false;
                 this.columnId.ReadOnly = true;
                 this.columnId.Unique = true;
-                this.columnZooID.AllowDBNull = false;
-                this.columnAnimalID.AllowDBNull = false;
+                this.columnZooId.AllowDBNull = false;
+                this.columnAnimalId.AllowDBNull = false;
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -1307,23 +1307,23 @@ namespace _01_WPF_ZooManager {
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")]
-            public int ZooID {
+            public int ZooId {
                 get {
-                    return ((int)(this[this.tableZooAnimal.ZooIDColumn]));
+                    return ((int)(this[this.tableZooAnimal.ZooIdColumn]));
                 }
                 set {
-                    this[this.tableZooAnimal.ZooIDColumn] = value;
+                    this[this.tableZooAnimal.ZooIdColumn] = value;
                 }
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "15.0.0.0")]
-            public int AnimalID {
+            public int AnimalId {
                 get {
-                    return ((int)(this[this.tableZooAnimal.AnimalIDColumn]));
+                    return ((int)(this[this.tableZooAnimal.AnimalIdColumn]));
                 }
                 set {
-                    this[this.tableZooAnimal.AnimalIDColumn] = value;
+                    this[this.tableZooAnimal.AnimalIdColumn] = value;
                 }
             }
         }
@@ -2198,8 +2198,8 @@ namespace _01_WPF_ZooManager.JustinsDBDataSetTableAdapters {
             tableMapping.SourceTable = "Table";
             tableMapping.DataSetTable = "ZooAnimal";
             tableMapping.ColumnMappings.Add("Id", "Id");
-            tableMapping.ColumnMappings.Add("ZooID", "ZooID");
-            tableMapping.ColumnMappings.Add("AnimalID", "AnimalID");
+            tableMapping.ColumnMappings.Add("ZooID", "ZooId");
+            tableMapping.ColumnMappings.Add("AnimalID", "AnimalId");
             this._adapter.TableMappings.Add(tableMapping);
             this._adapter.DeleteCommand = new global::System.Data.SqlClient.SqlCommand();
             this._adapter.DeleteCommand.Connection = this.Connection;

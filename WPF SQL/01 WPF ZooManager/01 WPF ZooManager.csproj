@@ -64,6 +64,9 @@
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="JustinsDBDataSet.cs">
+      <DependentUpon>JustinsDBDataSet.xsd</DependentUpon>
+    </Compile>
     <Compile Include="JustinsDBDataSet.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
