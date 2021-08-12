@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.1585
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01 Linq Demo", "01 Linq Demo\01 Linq Demo.csproj", "{1B094B64-F5CA-419C-B8C0-D420F00D90EE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02 LINQToObjectsAndQueryOperators", "02 LINQToObjectsAndQueryOperators\02 LINQToObjectsAndQueryOperators.csproj", "{CA66AAB5-2AF7-489D-B58C-A3C2ED5C4471}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1B094B64-F5CA-419C-B8C0-D420F00D90EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B094B64-F5CA-419C-B8C0-D420F00D90EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B094B64-F5CA-419C-B8C0-D420F00D90EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B094B64-F5CA-419C-B8C0-D420F00D90EE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CA66AAB5-2AF7-489D-B58C-A3C2ED5C4471}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA66AAB5-2AF7-489D-B58C-A3C2ED5C4471}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA66AAB5-2AF7-489D-B58C-A3C2ED5C4471}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA66AAB5-2AF7-489D-B58C-A3C2ED5C4471}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2BBCB9CF-1313-4964-84FE-73A5CCBB4C43}
+	EndGlobalSection
+EndGlobal
